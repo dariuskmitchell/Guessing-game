@@ -35,3 +35,12 @@ while guesscount <= 4:
 # This keyword ends the loop.
         break
 
+# This compares the guess to the random number.
+if guess != random_number:
+    print("Ahh, you didn't get it. The number was given to you! lol It was " + str(random_number))
+            
+# If it's the random number then print this.
+else:
+    print('You got it in ' + str(guesscount) + ' tries!')
+
+
