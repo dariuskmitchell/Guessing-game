@@ -11,7 +11,7 @@ print ("The  secret number is " + str(random_number))
 user_name = input("What should we call you?")
 
 # This Prints out a string with the the username in it>
-print("There is a number between 1 & 10. " + user_name + ", if you guess it right you win!")
+print("There is a number between 1 & 10. " + user_name + ", if you guess it right you win! Take a guess below")
 
 # This keeps track of the guesses.
 guesscount = 0
