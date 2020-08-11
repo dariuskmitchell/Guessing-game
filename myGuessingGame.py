@@ -25,7 +25,7 @@ while guesscount <= 4:
 # This adds one each time the code is cycled.
     guesscount += 1
 
-# This is the comparison operator.
+# This is where we compare the input to the random number.
     if guess > random_number:
         print("Try again, it's too high")
     if guess < random_number:
